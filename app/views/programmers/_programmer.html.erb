@@ -1,7 +1,6 @@
 
- <%= link_to programmer, programmer_path(programmer) %>
- <%= programmer.name %>
-<p class="list-group-item programmer-item">
-<%= image_tag programmer.image, width: '70px' %>
-  
+  <p class="list-group-item programmer-item">
+    <%= image_tag programmer.image, width: '70px' %>
+     <%= link_to programmer.name, programmer_path(programmer) %>
     
+  </p>
